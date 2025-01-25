@@ -1,0 +1,361 @@
+/* css for the hover buttons and menu list */
+
+.background{
+
+    min-height: 100vh;
+    
+    background-image: linear-gradient(rgba(231, 234, 247, 0.7),rgba(223, 226, 237, 0.7)),url(bg.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+.courseimg{
+
+    min-height: 100vh;
+    
+    background-image: linear-gradient(rgba(231, 234, 247, 0.7),rgba(223, 226, 237, 0.7)),url(cr.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+button{
+
+    width: 200px;
+    padding: 15px 0;
+    align-content: center;
+    text-align: center;
+    margin: 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #cd2626;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    margin-top: 100px;
+}
+span{
+
+    background: #009688;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+z-index: -1;
+transition: 0.5s;
+}
+button:hover span{
+
+    width: 100%;
+
+}
+
+button:hover{
+
+    border: none;
+
+   
+}
+
+button a{
+
+    text-decoration: none;
+    color: rgb(16, 14, 14);
+    text-transform: uppercase;
+
+}
+
+
+/* .dropdown{
+display: inline;
+
+}
+
+.dropdown button{
+
+    background-color: #009688;
+    color: aliceblue;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.dropdown a{
+display: block;
+color: rgb(235, 231, 231);
+text-decoration: none;
+padding: 10px 15px;
+
+
+}
+
+.dropdown .content{
+
+    display: none;
+    position: relative;
+    background-color: #009688;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px rgb(235, 229, 229);
+
+
+}
+
+.dropdown:hover .content{
+display: block;
+
+}
+
+.dropdown:hover button{
+
+background-color: #0b7e73;
+
+}
+
+.dropdown a:hover{
+
+    background-color: #26a497;
+}
+
+/* 2 */
+
+/* .dropdown1{
+    display: inline;
+    
+    }
+    
+    .dropdown1 button{
+    
+        background-color: #009688;
+        color: aliceblue;
+        padding: 10px 15px;
+        border: none;
+        cursor: pointer;
+    
+    }
+    
+    .dropdown1 a{
+    display: block;
+    color: rgb(235, 231, 231);
+    text-decoration: none;
+    padding: 10px 15px;
+    
+    
+    }
+    
+    .dropdown1 .content1{
+    
+        display: none;
+        position: relative;
+        background-color: #009688;
+        min-width: 100px;
+        box-shadow: 2px 2px 5px rgb(235, 229, 229);
+    
+    
+    }
+    
+    .dropdown1:hover .content1{
+    display: block;
+    
+    }
+    
+    .dropdown1:hover button{
+    
+    background-color: #0b7e73;
+    
+    }
+    
+    .dropdown1 a:hover{
+    
+        background-color: #26a497;
+    }
+
+    /* 3 */
+
+
+    /* .dropdown2{
+        display: inline;
+        
+        }
+        
+        .dropdown2 button{
+        
+            background-color: #009688;
+            color: aliceblue;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+        
+        }
+        
+        .dropdown2 a{
+        display: block;
+        color: rgb(235, 231, 231);
+        text-decoration: none;
+        padding: 10px 15px;
+        
+        
+        }
+        
+        .dropdown2 .content2{
+        
+            display: none;
+            position: relative;
+            background-color: #009688;
+            min-width: 100px;
+            box-shadow: 2px 2px 5px rgb(235, 229, 229);
+        
+        
+        }
+        
+        .dropdown2:hover .content2{
+        display: block;
+        
+        }
+        
+        .dropdown2:hover button{
+        
+        background-color: #0b7e73;
+        
+        }
+        
+        .dropdown2 a:hover{
+        
+            background-color: #26a497;
+        }
+
+        /* 4 */
+
+        /* .dropdown3{
+            display: inline;
+            
+            }
+            
+            .dropdown3 button{
+            
+                background-color: #009688;
+                color: aliceblue;
+                padding: 10px 15px;
+                border: none;
+                cursor: pointer;
+            
+            }
+            
+            .dropdown3 a{
+            display: block;
+            color: rgb(235, 231, 231);
+            text-decoration: none;
+            padding: 10px 15px;
+            
+            
+            }
+            
+            .dropdown3 .content3{
+            
+                display: none;
+                position: relative;
+                background-color: #009688;
+                min-width: 100px;
+                box-shadow: 2px 2px 5px rgb(235, 229, 229);
+            
+            
+            }
+            
+            .dropdown3:hover .content3{
+            display: block;
+            
+            }
+            
+            .dropdown3:hover button{
+            
+            background-color: #0b7e73;
+            
+            }
+            
+            .dropdown a:hover{
+            
+                background-color: #26a497;
+            } */ */ */ */
+
+
+            .dropdown,
+.dropdown1,
+.dropdown2,
+.dropdown3 {
+    display: inline;
+    
+}
+
+.dropdown button,
+.dropdown1 button,
+.dropdown2 button,
+.dropdown3 button {
+    background-color: #009688;
+    color: aliceblue;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+
+}
+
+.dropdown a,
+.dropdown1 a,
+.dropdown2 a,
+.dropdown3 a {
+    display: block;
+    color: rgb(235, 231, 231);
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.dropdown .content,
+.dropdown1 .content1,
+.dropdown2 .content2,
+.dropdown3 .content3 {
+    display: none;
+    position: relative;
+    background-color: #009688;
+    min-width: 100px;
+    box-shadow: 2px 2px 5px rgb(235, 229, 229);
+    width: 10%;
+    box-shadow: inset;
+    border-radius: 10px;
+    
+}
+
+.dropdown:hover .content,
+.dropdown1:hover .content1,
+.dropdown2:hover .content2,
+.dropdown3:hover .content3 {
+    display: block;
+    
+}
+
+.dropdown:hover button,
+.dropdown1:hover button,
+.dropdown2:hover button,
+.dropdown3:hover button {
+    background-color: #0b7e73;
+}
+
+.dropdown a:hover,
+.dropdown1 a:hover,
+.dropdown2 a:hover,
+.dropdown3 a:hover {
+    background-color: #26a497;
+}
+
+
+
+.sem{
+
+    align-items: center;
+}

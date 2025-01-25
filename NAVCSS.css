@@ -1,0 +1,262 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav{
+
+    display:flex;
+    padding: 1px;;
+   
+    align-items: center;
+     
+     border-style:hidden;
+     background-color:rgba(11, 85, 146, 0.557);
+    }
+
+nav img{
+
+    width: 90px;
+    padding: 2px;
+   
+
+}
+
+.nav-links{
+
+    flex:1;
+    text-align: left;
+}
+
+.nav-links ul li{
+
+    list-style: none;
+    display:inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+}
+
+.nav-links ul li a{
+
+    color: rgb(14, 16, 18);
+    text-decoration: none;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*style for body*/
+
+
+/*style for footer*/
+
+/* footer{
+
+    position: relative;
+    
+    background: rgb(73, 176, 14);
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    bottom: 0;
+
+}
+
+footer .sosial_m,
+footer .menu
+{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 10px 0;
+flex-wrap: wrap;
+} */
+
+/* footer .sosial_m li,
+footer .menu li{
+    list-style: none;
+
+}
+
+footer .sosial_m li a
+{
+
+font-size: 2em;
+color: aliceblue;
+margin: 0 10px;
+display: inline-block;
+transition: 0.3s;
+
+} */
+
+
+
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    /*
+
+}
+footer .menu li a{
+ font-size: 1.2em;
+color: aliceblue;
+margin: 0 10px;
+display: inline-block;
+text-decoration: none;
+opacity: 0.85;
+}
+
+footer .menu li a:hover{ /*dim effect on text (footer)
+
+opacity: 2;
+
+}
+
+footer .wave{
+
+position: absolute;
+top: -100px;
+left: 0;
+width: 100%;
+height: 100px;
+background: url(wave.png);
+background-size: 1000px 100px;
+}
+
+
+footer .wave#wave1{
+
+z-index:1000;
+opacity: 1;
+bottom: 0;
+animation: animateWave 4s linear infinite;
+}
+
+footer .wave#wave2{
+
+    z-index:999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animateWave_02 4s linear infinite;
+    }
+       
+
+    footer .wave#wave3{  
+
+        z-index:1000;
+        opacity: 0.2;
+        bottom: 15px;
+        animation: animateWave 3s linear infinite;
+        }
+        
+        footer .wave#wave4{
+        
+            z-index:999;
+            opacity: 0.7;
+            bottom: 20px;
+            animation: animateWave_02 3s linear infinite;
+            }
+
+
+@keyframes animateWave{
+
+    0%
+    {
+       background-position-x: 1000px;
+    }
+    100%
+    {
+       background-position-x: 0px;
+    }
+}
+
+@keyframes animateWave_02{
+
+    0%
+    {
+       background-position-x: 0px;
+    }
+    100%
+    {
+       background-position-x: 1000px;
+    }
+}
+
+
+/* Button styling */
+button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #12b75f;
+    background: transparent;
+    color: #101010;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s ease-in-out; /* Adding a transition effect */
+}
+
+button:hover {
+    border: none;
+    transform: scale(1.1); /* Scaling on hover */
+}
+
+button span {
+    background: rgba(60, 146, 11, 0.799);
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span {
+    width: 100%;
+}
+
+.about{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 15px;
+}
+
